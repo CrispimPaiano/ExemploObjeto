@@ -1,6 +1,3 @@
-
-import javax.swing.JOptionPane;
-
 /**
  * @author Crispim Paiano dos Santos
  */
@@ -23,7 +20,7 @@ public class Principal02 {
         macacoPrego.familia = "Cebidae";
         macacoPrego.genero = "Sapajus";
         macacoPrego.especie = "Simia apella";
-
+        
         //Macaco número#2
         Macaco macacoNarigudo = new Macaco();
         macacoNarigudo.nomeCientifico = "Nasalis larvatus";
@@ -39,7 +36,7 @@ public class Principal02 {
         macacoNarigudo.familia = "Cercopithecidae";
         macacoNarigudo.genero = "Nasalis";
         macacoNarigudo.especie = "N. larvatus";
-
+        
         //Macaco número#3
         Macaco mandril = new Macaco();
         mandril.nomeCientifico = "Mandrillus sphinx";
@@ -55,39 +52,8 @@ public class Principal02 {
         mandril.familia = "Cercopithecidae";
         mandril.genero = "Mandrillus";
         mandril.especie = "M. sphinx";
-
-        //Macaco número#4
-        Macaco macacoUM = new Macaco();
-        macacoUM.nomeCientifico = JOptionPane.showInputDialog("Nome Cientifico");
-        macacoUM.idade = Byte.parseByte(JOptionPane.showInputDialog("Idade"));
-        macacoUM.corPelo = JOptionPane.showInputDialog("Cor do pelo");
-        macacoUM.apelido = JOptionPane.showInputDialog("apelido");
-        macacoUM.altura = Float.parseFloat(JOptionPane.showInputDialog("altura"));
-        macacoUM.peso = Float.parseFloat(JOptionPane.showInputDialog("peso"));
-        macacoUM.reino = JOptionPane.showInputDialog("reino");
-        macacoUM.filo = JOptionPane.showInputDialog("filo");
-        macacoUM.classe = JOptionPane.showInputDialog("classe");
-        macacoUM.ordem = JOptionPane.showInputDialog("ordem");
-        macacoUM.familia = JOptionPane.showInputDialog("familia");
-        macacoUM.genero = JOptionPane.showInputDialog("genero");
-        macacoUM.especie = JOptionPane.showInputDialog("especie");
-
-        //Macaco número#5
-        Macaco macacoDois = new Macaco();
-        macacoDois.nomeCientifico = JOptionPane.showInputDialog("Nome Cientifico");
-        macacoDois.idade = Byte.parseByte(JOptionPane.showInputDialog("Idade"));
-        macacoDois.corPelo = JOptionPane.showInputDialog("Cor do pelo");
-        macacoDois.apelido = JOptionPane.showInputDialog("apelido");
-        macacoDois.altura = Float.parseFloat(JOptionPane.showInputDialog("altura"));
-        macacoDois.peso = Float.parseFloat(JOptionPane.showInputDialog("peso"));
-        macacoDois.reino = JOptionPane.showInputDialog("reino");
-        macacoDois.filo = JOptionPane.showInputDialog("filo");
-        macacoDois.classe = JOptionPane.showInputDialog("classe");
-        macacoDois.ordem = JOptionPane.showInputDialog("ordem");
-        macacoDois.familia = JOptionPane.showInputDialog("familia");
-        macacoDois.genero = JOptionPane.showInputDialog("genero");
-        macacoDois.especie = JOptionPane.showInputDialog("especie");
-
+        
+        
     }
 
 }

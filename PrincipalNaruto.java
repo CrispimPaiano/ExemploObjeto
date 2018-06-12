@@ -8,6 +8,8 @@ public class PrincipalNaruto {
         Personagem pain = new Personagem();
         pain.setNome("asd");
         
+        
+        
     }
 
 }
